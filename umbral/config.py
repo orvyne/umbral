@@ -8,7 +8,9 @@ from dataclasses import dataclass, field
 
 
 def _default_avatar_sizes() -> dict[str, str]:
-    """Default avatar sizes for different types."""
+    """
+    Default avatar sizes for different types.
+    """
     return {
         "headshot": "48x48",
         "bust": "48x48",
